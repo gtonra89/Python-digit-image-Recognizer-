@@ -17,4 +17,4 @@ Connect the HTML page to the route using AJAX.
 
 ## Technolodies Used
  for this project we will be using the following technologies :
- <img src="http://flask.pocoo.org/static/logo/flask.png">
+ <img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left">
