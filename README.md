@@ -14,3 +14,7 @@ Create a git repository with a README.md and an appropriate gitignore file. The 
 In the repository, create a web application that serves a HTML page as the root resource. The page should contain an input where the user can upload (or draw) an image containing a digit, and an area to display the image and the digit.
 Add a route to your application that accepts requests containing a user input image and responds with the digit.
 Connect the HTML page to the route using AJAX.
+
+## Technolodies Used
+ for this project we will be using the following technologies :
+ <img src="http://flask.pocoo.org/static/logo/flask.png">
