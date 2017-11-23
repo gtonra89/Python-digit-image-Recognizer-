@@ -16,5 +16,8 @@ Add a route to your application that accepts requests containing a user input im
 Connect the HTML page to the route using AJAX.
 
 ## Technolodies Used
- for this project we will be using the following technologies :
- <img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left">
+ for this project we will be using the following technologies :<br> 
+<img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left">
+<img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/AJAX_logo_by_gengns.svg_.png?raw=true" align="left">
+<img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/logo.png?raw=true" align="left">
+<img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/keras-logo-2018-large-1200.png?raw=true" align="left">
