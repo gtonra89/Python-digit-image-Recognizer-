@@ -32,6 +32,8 @@ The main reason Why i chose this application is to produce a result for the modu
 <a href ="https://www.tensorflow.org/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/logo.png?raw=true" align="left"></a>
 <a href ="https://keras.io/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/keras-logo-2018-large-1200.png?raw=true" align="left"></a>
 <br>
+<br>
+<br>
 ## Flask
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.<br>
 
