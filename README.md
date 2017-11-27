@@ -25,20 +25,20 @@ The main reason Why i chose this application is to produce a result for the modu
 
 ## Technolodies Used
  for this project we will be using the following technologies :<br>
- For more information on each Technlogy Used simply <b>click</b> on the Logo's provided 
+ For more information on each Technlogy Used simply <b>click</b> on the Logo's provided i have provided a brief description about the technologies below as well
  
 <a href ="http://flask.pocoo.org/"><img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left"></a>
 <a href ="https://en.wikipedia.org/wiki/Ajax_(programming)"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/AJAX_logo_by_gengns.svg_.png?raw=true" align="left"></a>
 <a href ="https://www.tensorflow.org/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/logo.png?raw=true" align="left"></a>
 <a href ="https://keras.io/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/keras-logo-2018-large-1200.png?raw=true" align="left"></a>
-
+<br>
 ## Flask
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.<br>
 
 Flask is called a micro framework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.<br>However, Flask supports extensions that can add application features as if they were implemented in Flask itself.<br>Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.<br> Extensions are updated far more regularly than the core Flask program
 
 ## Ajax
-Ajax is a set of Web development techniques using many Web technologies on the client side to create asynchronous Web applications. With Ajax, Web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows for Web pages, and by extension Web applications, to change content dynamically without the need to reload the entire page.[2] In practice, modern implementations commonly substitute JSON for XML due to the advantages of being native to JavaScript.
+Ajax is a set of Web development techniques using many Web technologies on the client side to create asynchronous Web applications. With Ajax, Web applications can send data to and retrieve from a server asynchronously (in the background) without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows for Web pages, and by extension Web applications, to change content dynamically without the need to reload the entire page. In practice, modern implementations commonly substitute JSON for XML due to the advantages of being native to JavaScript.
 
 ## Tensorflow
 TensorFlow is an open-source software library for dataflow programming across a range of tasks. It is a symbolic math library, and also used for machine learning applications such as neural networks.It is used for both research and production at Google, often replacing its closed-source predecessor, DistBelief.
