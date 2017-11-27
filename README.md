@@ -31,10 +31,9 @@ The main reason Why i chose this application is to produce a result for the modu
 <a href ="https://en.wikipedia.org/wiki/Ajax_(programming)"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/AJAX_logo_by_gengns.svg_.png?raw=true" align="left"></a>
 <a href ="https://www.tensorflow.org/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/logo.png?raw=true" align="left"></a>
 <a href ="https://keras.io/"><img src = "https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/keras-logo-2018-large-1200.png?raw=true" align="left"></a>
-<br>
-<br>
-<br>
-## Flask
+
+
+<br>## Flask
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.<br>
 
 Flask is called a micro framework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.<br>However, Flask supports extensions that can add application features as if they were implemented in Flask itself.<br>Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.<br> Extensions are updated far more regularly than the core Flask program
