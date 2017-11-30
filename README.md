@@ -48,3 +48,11 @@ Keras is an open source neural network library written in Python. It is capable 
 In 2017, Google's TensorFlow team decided to support Keras in TensorFlow's core library. Chollet explained that Keras was conceived to be an interface rather than an end-to-end machine-learning framework. It presents a higher-level, more intuitive set of abstractions that make it easy to configure neural networks regardless of the backend scientific computing library.Microsoft has been working to add a CNTK backend to Keras as well and the functionality is currently in beta release with CNTK v2.0
 
 ## References 
+Trains a simple convnet on the MNIST dataset.
+Gets to 99.25% test accuracy after 12 epochs
+(there is still a lot of margin for parameter tuning).
+16 seconds per epoch on a GRID K520 GPU.
+https://github.com/fchollet/keras/blob/master/examples/mnist_cnn.py 
+
+Adapted the main ocomponets from this : https://github.com/sleepokay/mnist-flask-app
+
