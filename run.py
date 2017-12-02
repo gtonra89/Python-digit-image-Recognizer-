@@ -37,3 +37,8 @@ def analyse():
     # Use predict function and pass image parseRead through it to get answer
     Result = trainedModel.predict(parseRead)
     print(Result)
+	
+	 # change Result to number string
+    ResString = np.array_str(np.argmax(Result, axis=1))
+    print(ResString)
+    return ResString
