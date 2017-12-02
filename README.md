@@ -18,17 +18,17 @@ This is one of 5 modules i am Working on this semester it focuses mainly on emer
 ## Why I created this application
 The main reason Why i chose this application is to produce a result for the module covered.<br>To produce a web app that will show the skills obtained in this module and use them to produce a useful Applictaion.<br>As well as that it will hopefully help with my Final Year Project that I am working on with two other students in my year.We are trying to use machine learning to predict trends so this module is very helpful   
 
-## prerequisites
+## Prerequisites
 Python 3.6 or  above : https://www.python.org/downloads/
 ## How to Run
 Download the zip directory to your local computer and extract the files<br>
 Open your Command Prompt of your Operating System<br>
 Cd or change directory to where the folder is extracted too<br>
-First type :<b>pip install requirements.txt</b><br>
+First type :```pip install requirements.txt```<br>
 This will install all the required imports needed for the program to run<br>
 once the requirements are satisfied we can then run the train.py file<br>
-type : <b>python run.py</b><br> 
-navigate to localhost : 127.0.0.1:5000  on your web browser 
+type : ```python run.py```<br>
+navigate to localhost : ```127.0.0.1:5000```  on your web browser 
 
 ## Technolodies Used
  for this project we will be using the following technologies :<br>
