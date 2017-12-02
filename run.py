@@ -37,18 +37,3 @@ def analyse():
     # Use predict function and pass image parseRead through it to get answer
     Result = trainedModel.predict(parseRead)
     print(Result)
-    # change Result to number string
-    ResString = np.array_str(np.argmax(Result, axis=1))
-    print(ResString)
-    return ResString
-
-# Parsing Image function
-def parseImg(imgData):
-    # parse canvas bytes and save as output.png
-    imgstr = re.search(b'base64,(.*)', imgData).group(1)
-    with open('output.png','wb') as output:
-        output.write(base64.decodebytes(imgstr))
-
-if __name__ == '__main__':
-    app.run(debug = True)
-   
