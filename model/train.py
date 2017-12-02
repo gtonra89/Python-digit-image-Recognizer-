@@ -102,5 +102,13 @@ model.compile(loss=keras.losses.categorical_crossentropy,# Loss(objective) Funct
               metrics=['accuracy'])# Used to judge the performance of your model
 # To train our model we use the fit function
 
+# To train our model we use the fit function
+model.fit(trainX, trainY,
+          batch=batch,# Batch_size will give us samples per gradient update
+          iterations=iterations, # the number of iterations it runs
+          verbose=1, #a progress bar of the training when set to 1
+          validation_data=(testX, testY)) # Evaluate the loss and model metrics of each iteration
+# Calculate our loss and accuracy of our test data.
+
 
 
