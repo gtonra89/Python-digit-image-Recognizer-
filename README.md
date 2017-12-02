@@ -31,9 +31,6 @@ type : ```python run.py```<br>
 navigate to localhost : ```127.0.0.1:5000```  on your web browser 
 
 ## Technolodies Used
- for this project we will be using the following technologies :<br>
- For more information on each Technlogy Used simply <b>click</b> on the Logo's provided i have provided a brief description about the technologies below as well
- 
 <a href ="http://flask.pocoo.org/"><img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left"></a><br><br><br><br><br>
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.<br>
 
