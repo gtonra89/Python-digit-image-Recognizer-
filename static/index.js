@@ -14,7 +14,7 @@
 	context.fillRect(0, 0, canvas.width, canvas.height);
 	//set the color of the line to black
 	context.color = "black";
-	context.lineWidth = 7;
+	context.lineWidth = 10;
     context.lineJoin = context.lineCap = 'round';
 	
 	debug();
@@ -37,8 +37,8 @@
 
 	var onPaint = function() {	
 		context.lineWidth = context.lineWidth;
-		context.lineJoin = "square";
-		context.lineCap = "square";
+		context.lineJoin = "round";
+		context.lineCap = "round";
 		context.strokeStyle = context.color;
 	
 		context.beginPath();
