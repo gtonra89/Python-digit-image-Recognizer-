@@ -50,3 +50,6 @@ def parseImg(imgData):
     imgstr = re.search(b'base64,(.*)', imgData).group(1)
     with open('output.png','wb') as output:
         output.write(base64.decodebytes(imgstr))
+		
+if __name__ == '__main__':
+    app.run(debug = True)
