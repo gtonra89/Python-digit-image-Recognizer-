@@ -1,13 +1,18 @@
 (function() {
+	//crete a new canvas object of type 2d with the Width and Height both at 280px
 	var canvas = document.querySelector("#canvas");
 	var context = canvas.getContext("2d");
 	canvas.width = 280;
 	canvas.height = 280;
 
+	//create a mouse and set its default x and y to 0,0
 	var Mouse = {x:0, y:0};
 	var lastMouse = {x:0, y:0};
+	//set the canvas fill color to white
 	context.fillStyle = "white";
+	//cover the fill to the width and height specified
 	context.fillRect(0, 0, canvas.width, canvas.height);
+	//set the color of the line to black
 	context.color = "black";
 	context.lineWidth = 7;
     context.lineJoin = context.lineCap = 'round';
@@ -32,8 +37,8 @@
 
 	var onPaint = function() {	
 		context.lineWidth = context.lineWidth;
-		context.lineJoin = "round";
-		context.lineCap = "round";
+		context.lineJoin = "square";
+		context.lineCap = "square";
 		context.strokeStyle = context.color;
 	
 		context.beginPath();
@@ -51,10 +56,3 @@
 		});
 	}
 }());
-
-// this prevents the site from idling
-// since it takes the flask app about 20 seconds to start up again
-var http = require("http");
-setInterval(function() {
-    http.get("http://mnist-flask-app.herokuapp.com");
-}, 300000); // every 5 minutes (300000)

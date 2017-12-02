@@ -4,11 +4,32 @@
 	<meta charset="UTF-8">
 	<title>Python-digit-image-Recognizer</title>
 	<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
-</head>
+	 <link rel="icon" 
+     type="image/png" 
+     href="http://flask.pocoo.org/static/logo/flask.png">
+<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
+    <!-- Bootstrap style template -->
+    <link rel="stylesheet" type="text/css" href={{ url_for('static', filename='style.css') }}>
+</head>
 <body>
-		<h1>Digit Recognition using Convolutional Neural Networks</h1>
-		<h1>G00341908 Garret Tonra 4th year Software development Student 
+		 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Python-digit-image-Recognizer</a>
+		
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            
+          </ul>
+        </div>
+      </nav>
+		
+		<br>
+		<p>G00341908 Garret Tonra 4th year Software development Student<br>Module : <ahrefEmerging technologies 
 		<div class="centered">
 			<canvas id="canvas" width="280" height="280"></canvas>
 		</div>
@@ -27,16 +48,13 @@
 	    <script src="{{url_for('static',filename='index.js')}}"></script>
 	    <script type="text/javascript">   
 	   		$(".myButton").click(function(){
-	   			$('#result').text('  Predicting...');
+	   			$('#result').text('Analyzing one moment please ....');
 	   			var $SCRIPT_ROOT = {{request.script_root|tojson|safe}};
 	   			var canvasObj = document.getElementById("canvas");
 	   			var img = canvasObj.toDataURL('image/png');
-	   			$.ajax({
-	   				type: "POST",
-	   				url: $SCRIPT_ROOT + "/analyse/",
-	   				data: img,
+	   			$.ajax({type: "POST",url: $SCRIPT_ROOT + "/analyse/",data: img,
 	   				success: function(data){
-	   					$('#result').text('The Predicted Output is: ' + data);
+	   					$('#result').text('The Analysed Input result is: ' + data);
 	   				}
 	   			});
 	   		});

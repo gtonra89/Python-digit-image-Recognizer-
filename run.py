@@ -11,13 +11,44 @@ import base64
 # creates an instance of the flask app
 app = Flask(__name__)
 
-# returns the renderstemplate of index.html
+# returns the renders_template of index.html to display page
 @app.route('/')
 def index():
     return render_template("index.html")
 
-# Predict function
+# Analayse the input given function
+# we use get and post actions
 @app.route('/analyse/', methods=['GET','POST'])
 def analyse():
+# get data from drawing canvas and save as image
+    parseImg(request.get_data())
 
+    # read parsed image back in 8-bit, black and white mode (L)
+    parseRead = imread('output.png', mode='L') 
+    parseRead = np.invert(parseRead)
+    parseRead = imresize(parseRead,(28,28))
+
+    # reshape image data for use in neural network
+    parseRead = parseRead.reshape(1,28,28,1)
+
+    # load model to predict number
+    trainedModel = keras.models.load_model("model/mnistModel.h5")
+
+    # Use predict function and pass image parseRead through it to get answer
+    Result = trainedModel.predict(parseRead)
+    print(Result)
+    # change Result to number string
+    ResString = np.array_str(np.argmax(Result, axis=1))
+    print(ResString)
+    return ResString
+
+# Parsing Image function
+def parseImg(imgData):
+    # parse canvas bytes and save as output.png
+    imgstr = re.search(b'base64,(.*)', imgData).group(1)
+    with open('output.png','wb') as output:
+        output.write(base64.decodebytes(imgstr))
+
+if __name__ == '__main__':
+    app.run(debug = True)
    
