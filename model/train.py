@@ -109,6 +109,14 @@ model.fit(trainX, trainY,
           verbose=1, #a progress bar of the training when set to 1
           validation_data=(testX, testY)) # Evaluate the loss and model metrics of each iteration
 # Calculate our loss and accuracy of our test data.
+score = model.evaluate(testX, testY, verbose=0)# Input and output and verbose set to 0 means silent mode
+
+# Print out Loss and accuracy of our test set.
+print('The Test loss is:', score[0])
+print('The Test accuracy is:', score[1])
+
+# Save Model in order to be reused again.
+model.save("mnistModel.h5")
 
 
 
