@@ -26,7 +26,7 @@ Open your Command Prompt of your Operating System<br>
 Cd or change directory to where the folder is extracted too<br>
 First type :```pip install requirements.txt```<br>
 This will install all the required imports needed for the program to run<br>
-once the requirements are satisfied we can then run the train.py file<br>
+once the requirements are satisfied we can then run the <b>run.py</b> file<br>
 type : ```python run.py```<br>
 navigate to localhost : ```127.0.0.1:5000```  on your web browser 
 
