@@ -20,6 +20,7 @@ def index():
 # we use get and post actions
 @app.route('/analyse/', methods=['GET','POST'])
 def analyse():
+# calls the parse img function to 
 # get data from drawing canvas and save as image
     parseImg(request.get_data())
 
@@ -42,3 +43,10 @@ def analyse():
     ResString = np.array_str(np.argmax(Result, axis=1))
     print(ResString)
     return ResString
+	
+# Parsing Image function
+def parseImg(imgData):
+    # parse canvas bytes and save as output.png
+    imgstr = re.search(b'base64,(.*)', imgData).group(1)
+    with open('output.png','wb') as output:
+        output.write(base64.decodebytes(imgstr))
