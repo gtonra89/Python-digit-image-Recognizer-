@@ -57,7 +57,7 @@ Keras is an open source neural network library written in Python. It is capable 
 
 In 2017, Google's TensorFlow team decided to support Keras in TensorFlow's core library. Chollet explained that Keras was conceived to be an interface rather than an end-to-end machine-learning framework. It presents a higher-level, more intuitive set of abstractions that make it easy to configure neural networks regardless of the backend scientific computing library.Microsoft has been working to add a CNTK backend to Keras as well and the functionality is currently in beta release with CNTK v2.0
 
-## Neuarl Networks
+## Neural Networks
 Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input. The patterns they recognize are numerical, contained in vectors, into which all real-world data, be it images, sound, text or time series, must be translated. In this project we give a neural network the MNIST dataset as input in order to for it to perform deep learning on the images.
 
 ## References 
