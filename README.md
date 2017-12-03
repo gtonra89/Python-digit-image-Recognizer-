@@ -24,11 +24,10 @@ Python 3.6 or  above : https://www.python.org/downloads/
 Download the zip directory to your local computer and extract the files<br>
 Open your Command Prompt of your Operating System<br>
 Cd or change directory to where the folder is extracted too<br>
-First type :```pip install requirements.txt```<br>
-This will install all the required imports needed for the program to run<br>
-once the requirements are satisfied we can then run the <b>run.py</b> file<br>
-type : ```python run.py```<br>
-navigate to localhost : ```127.0.0.1:5000```  on your web browser 
+Then type the following command  
+```python run.py```and hit Enter<br>
+navigate to localhost on your web browser to see the webapp in use<br>
+<a href = "127.0.0.1:5000">127.0.0.1:5000</a>
 
 ## Technolodies Used
 <a href ="http://flask.pocoo.org/"><img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left"></a><br><br><br><br><br>
