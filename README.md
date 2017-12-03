@@ -29,7 +29,7 @@ Then type the following command
 navigate to localhost on your web browser to see the webapp in use<br>
 <a href = "127.0.0.1:5000">127.0.0.1:5000</a>
 
-## Technolodies Used
+## Technologies Used
 <a href ="http://flask.pocoo.org/"><img src="https://github.com/gtonra89/Python-digit-image-Recognizer-/blob/master/pocoo_flask-card.png?raw=true" align="left"></a><br><br><br><br><br>
 Flask is a micro web framework written in Python and based on the Werkzeug toolkit and Jinja2 template engine. It is BSD licensed.<br>
 
