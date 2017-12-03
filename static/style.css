@@ -18,11 +18,12 @@ h1 {
 
 #canvas {
 	position: relative;
-	border: 8px solid;
+	top:0;
+	border: 5px solid;
 	margin: auto;
-	margin-top: 160px;
+	margin-top: 0px;
 	border-radius: 5px;
-	cursor: pointer;
+	cursor: pencil; 
 	text-align: center;
 }
 
