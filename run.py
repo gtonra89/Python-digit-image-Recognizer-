@@ -21,11 +21,10 @@ def about():
     return render_template('about.html')
 
 # Analayse the input given function
-# we use get and post actions
 @app.route('/analyse/', methods=['GET','POST'])
 def analyse():
-# calls the parse img function to 
-# get data from drawing canvas and save as image
+	# calls the parse img function to 
+	# get data from drawing canvas and save as image
     parseImage(request.get_data())
 
     # read parsed image back in 8-bit, black and white mode (L)
