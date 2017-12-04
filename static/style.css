@@ -23,7 +23,7 @@ h1 {
 	margin: auto;
 	margin-top: 160px;
 	border-radius: 5px;
-	cursor: pencil; 
+	cursor: pointer; 
 	text-align: center;
 }
 
